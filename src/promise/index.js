@@ -15,3 +15,21 @@ countCows.then((r)=>{
 }).finally(()=>{
     console.log('Termino la promesa');
 })
+
+/* Ejercicio hecho en platzi sobre promesas
+    export function delay(time, message) {
+  return new Promise((resolve, reject) => {
+    window.setTimeout(() => {
+      resolve(message)
+    }, time);
+  });
+}
+
+delay(5, 'Hola')
+  .then((res) => console.log(res))
+  .catch((error) => console.log(error))
+  .finally(console.log('Termino la promesa'))
+
+
+
+*/
